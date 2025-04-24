@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-left{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+#main-right{
+    margin: 5%;
+    width: 100%;
+
+}
+
+.overlay{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid black;
+}
+
+.invisible{
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+    z-index: 999;
+    width: 30%;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border: 1px solid green;
+}
+#user-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
